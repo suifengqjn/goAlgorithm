@@ -11,8 +11,7 @@ func Insert()  {
 
 	l := len(arr)
 
-	for i := 0; i < l; i++ {
-
+	for i := 1; i < l; i++ {
 		//向前寻找合适位置插入
 		for j := i; j > 0;j-- {
 			if arr[j-1] > arr[j] {
